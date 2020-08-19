@@ -24,13 +24,13 @@ body * {
   padding-top: 80%;
 }
 
-.titulo {
-    text-decoration-line: underline;
+.subtitulo {
+    text-decoration-line: overline;
 }
 
 /*seccion de parrafo principal*/
 
-.linea-hr {
+.linea-hr{
     background-color: #002;
 }
 
@@ -41,6 +41,15 @@ body * {
     line-height: 2.3em;
 }
 
+
+/*carousel*/
+.carousel-indicators li {
+    width: 0.7rem;
+    height: 0.7rem;
+    background-color:grey;
+    border-radius: 50%;
+}
+  
 
 
 
