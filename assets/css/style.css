@@ -28,9 +28,18 @@ body * {
     text-decoration-line: underline;
 }
 
+/*seccion de parrafo principal*/
+
+.linea-hr {
+    background-color: #002;
+}
+
+/*seccion de parrafo secundario*/
 
 
-
+.spacio-linea {
+    line-height: 5em;
+}
 
 
 
