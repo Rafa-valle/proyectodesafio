@@ -1,0 +1,39 @@
+body {
+    background-color: #fff;
+
+}
+
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+/*barra de nav*/
+.barra-nav {
+    background-color: #660066;
+}
+
+/* comienzo de primera seccion de imagen de perfil*/
+
+.foto-perfil {
+  background-image: url("../img/bg_hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-position: center;
+  padding-top: 80%;
+}
+
+.titulo {
+    text-decoration-line: underline;
+}
+
+
+
+
+
+
+
+
+
+/* comienzo de primera seccion de imagen de perfil*/
