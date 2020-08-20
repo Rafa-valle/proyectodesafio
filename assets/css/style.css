@@ -9,7 +9,7 @@ body * {
     padding: 0;
   }
 /*barra de nav*/
-.barra-nav {
+.color-ntf {
     background-color: #660066;
 }
 
@@ -49,9 +49,19 @@ body * {
     background-color:grey;
     border-radius: 50%;
 }
+/*Trebajos anteriores*/
   
+.linea {
+    border-bottom: 3px solid #fff; 
+    padding-bottom: 20px;
+    display: inline-block;
 
+}
 
+/*pie de pagina*/
+.margen-icon_footer {
+   pa
+}
 
 
 /* comienzo de primera seccion de imagen de perfil*/
