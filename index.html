@@ -12,7 +12,7 @@
   <!--font awesome-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
   <!--Bootstrap css 4.5.0-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
   <!--hoja de estilo css-->
   <link rel="stylesheet" href="assets/css/style.css">
@@ -36,10 +36,10 @@
                             <a class="nav-link text-white"  class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Donde he trabajado" href="#experiencias">Experiencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white"  class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Mis Trabajos" href="#trabajo">Trabajos</a>
+                            <a class="nav-link text-white"  class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Mis Trabajos" href="#work">Trabajos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white"  class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Contactame" href="#contacto">contacto</a>
+                            <a class="nav-link text-white"  class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Contactame" href="#contactar">contacto</a>
                         </li>
                         </ul>
                     </div>
@@ -50,12 +50,10 @@
 
             <!--comienzo imagen perfil-->
             <hero-section>
-                <div  id="inicio" class="container-fluid foto-perfil text-center top-tex  mt-5">
-                    <div class="container text-center text-fluid mt-5">
-                        <h2><span class="titulo">YO SOY</span></h2>
-                    
-                    <h2><span class="subtitulo">MAGDALENA</span></h2>
-                    
+                <div  id="inicio" class="container-fluid foto-perfil text-center top-tex  mt-5 ">
+                    <div class="container text-center text-fluid newsletter titulo-prncipal mt-5">
+                        <h2><span class="perfil-titulo font-weight-lighter text-fluid ">YO SOY</span></h2>
+                        <h2 class="perfil-subtitulo font-weight-bold text-fluid titulo-principal_linea">MAGDALENA</h2>
                     </div>
                 </div>
             </hero-section>
@@ -101,12 +99,12 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
-                                <div class="col-sm-12 col-md-6 margin-icon">
+                                <div class="col-sm-12 col-md-6 carousel-icon margin-icon">
                                     <i class="fab fa-google fa-10x"></i>
                                     <p class="texto-carrusel"></p>
                                     <p></p>
                                 </div>
-                                <div class="col-12 col-md-6 ">
+                                <div class="col-12 col-md-6 carousel-icon">
                                     <i class="fab fa-apple fa-10x"></i>
                                     <p class="texto-carrusel"></p>
                                 </div>
@@ -115,11 +113,11 @@
 
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-6 margin-icon">
+                                    <div class="col-sm-12 col-md-6 carousel-icon margin-icon">
                                         <i class="fab fa-mandalorian fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-6 carousel-icon">
                                         <i class="fab fa-jedi-order fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
@@ -127,11 +125,11 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-6 margin-icon">
+                                    <div class="col-sm-12 col-md-6 carousel-icon margin-icon">
                                         <i class="fas fa-charging-station fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-6 carousel-icon">
                                         <i class="fas fa-registered fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
@@ -139,11 +137,11 @@
                             </div>
                             <div class="carousel-item">
                                 <div class="row">
-                                    <div class="col-sm-12 col-md-6 margin-icon">
+                                    <div class="col-sm-12 col-md-6 carousel-icon margin-icon">
                                         <i class="fab fa-android fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
-                                    <div class="col-12 col-md-6">
+                                    <div class="col-12 col-md-6 carousel-icon">
                                         <i class="fas fa-registered fa-10x"></i>
                                         <p class="texto-carrusel"></p>
                                     </div>
@@ -165,7 +163,7 @@
 
             <!--comienzo seccion imagenes de trabajo-->
                 <section>
-                <div class="container-fluid  mt-5 section-comida color-ntf">
+                <div class="container-fluid  mt-5 section-comida color-ntf" id="work">
                     <div class="text-center"> 
                         <h2 class="text-center pt-5 text-white linea">MIS ÚLTIMOS TRABAJOS</h2>
                     </div>
@@ -342,8 +340,8 @@
                         <div class="card-body col-12 col-sm-6 col-md-4 col-lg-4">
                         <img src="assets/img/dmark.png" class="card-img-top" alt="...">
                         <div class="card ">
-                            <h5 class="card-title font-weight-bold text-h5 pt-3 px-3 cabin">DMark</h5>
-                            <p class="px-3 font-weight-Regular cabin">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
+                            <h5 class="card-title text-h5 pt-3 px-3">DMark</h5>
+                            <p class="px-3">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien, scelerisque semper fusce turpis cubilia cursus a taciti, ligula in at sociis accumsan donec ridiculus.</p>
                             <a href="#" class="btn btn-outline-info" data-toggle="modal" data-target="#dmark">Ver mas</a>
                         </div>
                         </div>
@@ -386,7 +384,7 @@
 
 
             <!--comienzo de formulario-->
-                <section class="container my-5" id="contacto">
+                <section class="container my-5" id="contactar">
 
                     <form class="d-none d-sm-none d-md-block">
                         <h2 class=" font-weight-bold  text-fluid text-center my-4">Contactame</h2>
