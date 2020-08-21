@@ -12,6 +12,9 @@ body * {
 .newsletter {
   font-family: 'Oswald', sans-serif;
 }
+.peso-regular{
+  font-weight: 400;  
+}
 
 /*barra de nav*/
 .color-ntf {
@@ -25,16 +28,24 @@ body * {
   background-size: cover;
   color: #fff;
   background-position: center;
-  padding-top: 80%;
-}
 
-.titulo-principal {
-  width: 80%;
+}
+.alto-img {
+  padding-top: 36rem
+}
+.titulo-perfil_1 {
+  font-size: 5rem;
+}
+.titulo-perfil_2 {
+  font-size: 5rem;
+}
+.titulo-perfil_3 {
+  font-size: ;
 }
 
 .titulo-principal_linea {
-  border-top: 3px solid #fff;
-  padding-bottom: 20px;
+  border-top: 2px solid #fff;
+  padding-top: 20px;
   display: inline-block;
 }
 

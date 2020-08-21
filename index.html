@@ -26,7 +26,7 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark color-ntf fixed-top">
       <div class="container">
-        <h1 class=" text-white">M</h1>
+        <h1 class=" text-white newsletter font-weight-bold">M</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,19 +34,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto ">
             <li class="nav-active">
-              <a class="nav-link text-white" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+              <a class="nav-link text-white peso-regular" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
                 title="algo sobre mi" href="#sobremi">Sobre mi</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+              <a class="nav-link text-white peso-regular" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
                 title="Donde he trabajado" href="#experiencias">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+              <a class="nav-link text-white peso-regular" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
                 title="Mis Trabajos" href="#work">Trabajos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
+              <a class="nav-link text-white peso-regular" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom"
                 title="Contactame" href="#contactar">contacto</a>
             </li>
           </ul>
@@ -59,9 +59,13 @@
   <!--comienzo imagen perfil-->
   <hero-section>
     <div id="inicio" class="container-fluid foto-perfil text-center top-tex  mt-5 ">
-      <div class="container text-center text-fluid newsletter titulo-prncipal mt-5">
-        <h2><span class="perfil-titulo font-weight-lighter text-fluid ">YO SOY</span></h2>
-        <h2 class="perfil-subtitulo font-weight-bold text-fluid titulo-principal_linea">MAGDALENA</h2>
+      <div class="container text-center d-none d-sm-none d-md-block text-fluid alto-img mt-5">
+        <h2><span class="font-weight-lighter newsletter text-fluid titulo-perfil_1">YO SOY</span></h2><br>
+        <h2 class="perfil-subtitulo font-weight-bold text-fluid newsletter titulo-perfil_2 titulo-principal_linea">MAGDALENA</h2><br><br><br><br>
+      </div>
+      <div class="container text-center d-block d-sm-block d-md-none d-lg-none text-fluid mt-5">
+        <h2><span class="font-weight-lighter newsletter text-fluid titulo-perfil_">YO SOY</span></h2>
+        <h2 class="perfil-subtitulo font-weight-bold text-fluid newsletter titulo-perfil_2 titulo-principal_linea">MAGDALENA</h2>
       </div>
     </div>
   </hero-section>
@@ -114,8 +118,9 @@
   </div>
   <!--fin, seccion de parrafo secundario-->
 
+  <br id="experiencias">
   <!--comienzo de mi experiencia en carousel-->
-  <hero-section class="d-block d-sm-block d-md-block container text-center" id="experiencias">
+  <hero-section class="d-block d-sm-block d-md-block container text-center">
     <div class="text-center">
       <h2 class="text-center pt-5 titulo-carousel">MIS EXPERIENCIA</h2>
       <hr class="linea-carousel">
@@ -187,8 +192,9 @@
   <!--fin, mi experiencia en carousel-->
 
   <!--comienzo seccion imagenes de trabajo-->
+  <br id="work">
   <section>
-    <div class="container-fluid  mt-5 section-comida color-ntf" id="work">
+    <div class="container-fluid  mt-5 section-comida color-ntf">
       <div class="text-center">
         <h2 class="text-center pt-5 text-white linea">MIS ÚLTIMOS TRABAJOS</h2>
       </div>
@@ -451,8 +457,9 @@
 
 
 
-  <!--comienzo de formulario-->
-  <section class="container my-5" id="contactar">
+  <!--comienzo de formulario-->}
+  <br><br id="contactar">
+  <section class="container my-5">
 
     <form class="d-none d-sm-none d-md-block">
       <h2 class=" font-weight-bold  text-fluid text-center my-4">Contactame</h2>

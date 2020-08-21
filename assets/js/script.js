@@ -1,22 +1,27 @@
+/*funcion para mostrar texto
+pasando cursor por texto, imagen o icono*/
 $(function () {
     $('[data-toggle="tooltip"]').tooltip()
 })
+
+/*funcion para el 
+desplazamiento de la pagina*/ 
 $(function(){
 
     $('a').click(function(event) {
         if (this.hash !== "") {
           event.preventDefault();
   
-          var gato = this.hash; //guarda el valor de hash en una variable llamada gato. actualmete en vez de var se denomina let o cons
+          var gato = this.hash; //almacena el valor de hash en variable llamada gato.
   
           $("html, body").animate({
             scrollTop: $(gato).offset().top
-          }, 900, function(){  //600 milisegundos de retardo para abrir ventana modal
+          }, 900, function(){  //600 milisegundos de retardo 
   
-            window.location.hash = gato; //Agrega hash (#) a la URL cuando haya terminado de desplazarse. comportamiento de click predeterminado
+            window.location.hash = gato;
           });
         } //fin del if
     });
   
     $('[data-toggle="popover"]').popover();
-  })
+})
