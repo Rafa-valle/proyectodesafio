@@ -1,24 +1,24 @@
 body {
-    background-color: #fff;
-    font-family: sans-serif;
-
+  background-color: #fff;
+  font-family: sans-serif;
 }
 
 body * {
-    margin: 0;
-    border: 0;
-    padding: 0;
-  }
-.newsletter {
-    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  border: 0;
+  padding: 0;
 }
+
+.newsletter {
+  font-family: 'Oswald', sans-serif;
+}
+
 /*barra de nav*/
 .color-ntf {
-    background-color: #660066;
+  background-color: #660066;
 }
 
 /* comienzo de primera seccion de imagen de perfil*/
-
 .foto-perfil {
   background-image: url("../img/bg_hero.png");
   background-repeat: no-repeat;
@@ -27,64 +27,57 @@ body * {
   background-position: center;
   padding-top: 80%;
 }
+
 .titulo-principal {
-    width: 80%;
+  width: 80%;
 }
 
 .titulo-principal_linea {
-    border-top: 3px solid #fff; 
-    padding-bottom: 20px;
-    display: inline-block;
+  border-top: 3px solid #fff;
+  padding-bottom: 20px;
+  display: inline-block;
 }
-
 
 /*seccion de parrafo principal*/
 .linea-parrafo {
-    border-bottom: 1px solid #373A3C; 
-    padding-bottom: 20px;
-    display: inline-block;
-    width: 10%;
+  border-bottom: 1px solid #373A3C;
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 10%;
 }
 
 /*seccion de parrafo secundario*/
-
-
 .espacio-linea {
-    line-height: 2.3em;
+  line-height: 2.3em;
 }
-
 
 /*carousel*/
 .carousel-indicators li {
-    width: 0.7rem;
-    height: 0.7rem;
-    background-color:grey;
-    border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  background-color: grey;
+  border-radius: 50%;
 }
+
 .linea-carousel {
-    border-bottom: 3px solid #373A3C; 
-    padding-bottom: 5px;
-    display: inline-block;
-    width: 8%;
-}
-.carousel-icon{
-    color: #ac2c2c;
+  border-bottom: 3px solid #373A3C;
+  padding-bottom: 5px;
+  display: inline-block;
+  width: 8%;
 }
 
-.margin-icon {
-
+.carousel-icon {
+  color: #ac2c2c;
 }
 
+.margin-icon {}
 
 /*Trebajos anteriores*/
-  
 .linea {
-    border-bottom: 3px solid #fff; 
-    padding-bottom: 20px;
-    display: inline-block;
-
+  border-bottom: 3px solid #fff;
+  padding-bottom: 20px;
+  display: inline-block;
 }
 
 /*pie de pagina*/
-
 /* comienzo de primera seccion de imagen de perfil*/
