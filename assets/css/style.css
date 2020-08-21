@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body * {
@@ -91,6 +91,10 @@ body * {
 .margin-icon {
   padding-bottom: 50px;
 }
+.titulo-carousel_icon{
+  color: #373A3C;
+  font-size: 20px;
+}
 
 /*Trebajos anteriores*/
 .linea {
@@ -98,6 +102,9 @@ body * {
   padding-bottom: 20px;
   display: inline-block;
 }
+
+/*formulario de contacto*/
+
 
 /*pie de pagina*/
 /* comienzo de primera seccion de imagen de perfil*/
