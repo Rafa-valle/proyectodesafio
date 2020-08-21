@@ -24,14 +24,13 @@ body * {
   padding-top: 80%;
 }
 
-.subtitulo {
-    text-decoration-line: overline;
-}
 
 /*seccion de parrafo principal*/
-
-.linea-hr{
-    background-color: #002;
+.linea-parrafo {
+    border-bottom: 1px solid #373A3C; 
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 10%;
 }
 
 /*seccion de parrafo secundario*/
@@ -49,6 +48,13 @@ body * {
     background-color:grey;
     border-radius: 50%;
 }
+.linea-carousel {
+    border-bottom: 3px solid #373A3C; 
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
 /*Trebajos anteriores*/
   
 .linea {
