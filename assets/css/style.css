@@ -52,7 +52,11 @@ body * {
     border-bottom: 3px solid #373A3C; 
     padding-bottom: 5px;
     display: inline-block;
+    width: 20px;
+}
 
+.titulo-carousel {
+    color: #373A3C;
 }
 
 /*Trebajos anteriores*/
