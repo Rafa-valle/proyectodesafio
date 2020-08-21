@@ -33,6 +33,9 @@ body * {
 .alto-img {
   padding-top: 36rem
 }
+.alto-img2{
+  margin-top: 15rem;
+}
 .titulo-perfil_1 {
   font-size: 5rem;
 }
@@ -40,6 +43,10 @@ body * {
   font-size: 5rem;
 }
 .titulo-perfil_3 {
+  font-size: ;
+}
+.titulo-perfil_3 {
+
   font-size: ;
 }
 
@@ -81,7 +88,9 @@ body * {
   color: #ac2c2c;
 }
 
-.margin-icon {}
+.margin-icon {
+  padding-bottom: 50px;
+}
 
 /*Trebajos anteriores*/
 .linea {
