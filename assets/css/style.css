@@ -56,7 +56,10 @@ body * {
 }
 
 .titulo-carousel {
-    color: #373A3C;
+    border-bottom: 1px solid #373A3C; 
+    padding-bottom: 20px;
+    display: inline-block;
+    width: 10%;
 }
 
 /*Trebajos anteriores*/
