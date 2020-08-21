@@ -52,15 +52,10 @@ body * {
     border-bottom: 3px solid #373A3C; 
     padding-bottom: 5px;
     display: inline-block;
-    width: 20px;
+    width: 8%;
 }
 
-.titulo-carousel {
-    border-bottom: 1px solid #373A3C; 
-    padding-bottom: 20px;
-    display: inline-block;
-    width: 10%;
-}
+
 
 /*Trebajos anteriores*/
   
