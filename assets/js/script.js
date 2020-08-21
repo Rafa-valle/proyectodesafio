@@ -11,7 +11,7 @@ $(function(){
   
           $("html, body").animate({
             scrollTop: $(gato).offset().top
-          }, 900, function(){  //600 milisegundos de retardo para abrir
+          }, 900, function(){  //600 milisegundos de retardo para abrir ventana modal
   
             window.location.hash = gato; //Agrega hash (#) a la URL cuando haya terminado de desplazarse. comportamiento de click predeterminado
           });
