@@ -16,7 +16,7 @@ $(function(){
   
           $("html, body").animate({
             scrollTop: $(gato).offset().top
-          }, 700, function(){  //700 milisegundos de retardo 
+          }, 900, function(){  //900 milisegundos de retardo 
   
             window.location.hash = gato;
           });
