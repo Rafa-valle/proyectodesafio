@@ -95,6 +95,10 @@ body * {
   display: inline-block;
 }
 
+.border-text {
+  border-color: #DDDDDD;
+}
+
 /*formulario de contacto*/
 
 
