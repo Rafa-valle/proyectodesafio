@@ -12,8 +12,9 @@ body * {
 .newsletter {
   font-family: 'Oswald', sans-serif;
 }
-.peso-regular{
-  font-weight: 400;  
+
+.peso-regular {
+  font-weight: 400;
 }
 
 /*barra de nav*/
@@ -30,18 +31,23 @@ body * {
   background-position: center;
 
 }
+
 .alto-img {
   padding-top: 36rem
 }
-.alto-img2{
+
+.alto-img2 {
   margin-top: 15rem;
 }
+
 .titulo-perfil_1 {
   font-size: 5rem;
 }
+
 .titulo-perfil_2 {
   font-size: 5rem;
 }
+
 .titulo-principal_linea {
   border-top: 2px solid #fff;
   padding-top: 20px;
@@ -83,7 +89,8 @@ body * {
 .margin-icon {
   padding-bottom: 50px;
 }
-.titulo-carousel_icon{
+
+.titulo-carousel_icon {
   color: #373A3C;
   font-size: 20px;
 }
@@ -101,6 +108,4 @@ body * {
 
 /*formulario de contacto*/
 
-
 /*pie de pagina*/
-/* comienzo de primera seccion de imagen de perfil*/

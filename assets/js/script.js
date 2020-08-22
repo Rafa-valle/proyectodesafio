@@ -7,7 +7,6 @@ $(function () {
 /*funcion para el 
 desplazamiento de la pagina*/ 
 $(function(){
-
     $('a').click(function(event) {
         if (this.hash !== "") {
           event.preventDefault();
@@ -25,6 +24,8 @@ $(function(){
   
     $('[data-toggle="popover"]').popover();
 })
+
+/*apertura de ventana al darle click a elementos especificos*/ 
 $('.popover-dismiss').popover({
   trigger: 'focus'
 })
