@@ -107,5 +107,8 @@ body * {
 }
 
 /*formulario de contacto*/
+.contacto-size {
+  font-size: 3rem;
+}
 
 /*pie de pagina*/
